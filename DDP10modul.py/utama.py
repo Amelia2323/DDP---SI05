@@ -1,0 +1,28 @@
+import hitung, bangundatar, bangunruang
+
+print ("\n---- Perhitungan Modul Hitung ----")
+hitung.tambah(4,5)
+hitung.kurang(7,6)
+hitung.kali (2,5)
+hitung.bagi(8,7)
+hitung.pangkat(3,2)
+
+print ("\n---- Perhitungan Modul Bangun Datar ----")
+print ("***Persegi***")
+bangundatar.persegi (3)
+print ("\n ***Persegi Panjang***")
+bangundatar.persegipanjang (4, 5)
+print ("\n ***Jajar genjang***")
+bangundatar.jajargenjang(7, 8, 9)
+print ("\n ***Lingkaran***")
+bangundatar.lingkaran(10)
+
+print ("\n---- Perhitungan Modul Bangun Ruang ----")
+print ("***Kubus***")
+bangunruang.kubus(2)
+print ("\n ***Balok***")
+bangunruang.balok(3,4,5)
+print ("\n ***Kerucut***")
+bangunruang.kerucut(6,7,8)
+print ("\n ***Bola***")
+bangunruang.bola(6)
