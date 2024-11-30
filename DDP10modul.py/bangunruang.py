@@ -23,3 +23,9 @@ def bola (r) :
     lpermukaan = 4*22/7*r**2
     print(f"Volume bola 4/3 x 22/7 x {r}**3 = {volume}")
     print(f"Luas permukaan bola 4 x 22/7 x {r}**2 = {lpermukaan}")
+
+def tabung(r,t) :
+    volume = 22/7*r**2*t
+    lpermukaan = 2*22/7*r + (r+t) 
+    print(f"Volume tabung 22/7 x {r}**2 x {t} = {volume}")
+    print(f"Luas permukaan tabung 2 x 22/7 x {r} + ({r} + {t}) = {lpermukaan}")

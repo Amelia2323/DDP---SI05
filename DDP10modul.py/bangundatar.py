@@ -23,3 +23,9 @@ def lingkaran (r):
     keliling = 2*22/7*r
     print(f"Luas lingkaran 22/7 x {r}**2 = {luas}")
     print(f"Keliling lingkaran 2 x 22/7 x {r} = {keliling}")
+
+def segitiga (alas, tinggi, sisiA, sisiB, sisiC) :
+    luas = 1/2*alas*tinggi
+    keliling = sisiA+sisiB+sisiC
+    print(f"Luas segitiga 1/2 x {alas} x {tinggi} = {luas}")
+    print(f"Keliling segitiga {sisiA} + {sisiB} + {sisiC} = {keliling}")
